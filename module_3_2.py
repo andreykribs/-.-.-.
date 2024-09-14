@@ -1,4 +1,4 @@
-def send_email(message, recipient, *, sender="university.help@gmail.com"):
+def send_email(message, recipient, sender="university.help@gmail.com"):
     if recipient == sender:
         print("Нельзя отправить письмо самому себе!")
     elif sender == "university.help@gmail.com":
